@@ -20,7 +20,7 @@ class InputSchema(BaseModel):
 
 
 name = "Translator_Agent"
-description = "A translator agent that translates text from English to French"
+description = "A translator agent that translates text from English to French or Spanish or Italian. Give it some text, and ask it to translate to a supported language."
 
 # Create an adapter for openai
 mcp_openai_agent = create_openai_adapter(
